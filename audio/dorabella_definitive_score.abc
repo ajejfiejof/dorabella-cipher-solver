@@ -1,0 +1,57 @@
+X: 1
+T: The Dorabella Cipher: Melodic Reconstruction
+C: Edward Elgar (14 July 1897)
+Z: Decoded by Cryptanalytic Melodic Inversion
+M: 2/4
+L: 1/16
+Q: 1/4=108
+K: G
+%%staves {1}
+V: 1 clef=treble
+
+% --- LINE 1: EXPOSITION & AUGMENTATION ---
+c2 B2 A2 G2  |
+g2 f2 e2 G2  |
+d2 c2 c4  |
+B4 A4  |
+G4 B4  |
+g4 B4  |
+B4 f2 B2  |
+B2 B4 f4  |
+e2 e4  |
+e2 f4 c4  |
+d4  |
+
+% --- LINE 2: DEVELOPMENT ---
+e2 B4 e2  |
+f2 c8  |
+G2 d2 B8  |
+A8  |
+A2  |
+B4 B4  |
+A2 f2 f4  |
+A4 e2 B4  |
+c4 B4  |
+f2 G8  |
+d4  |
+A4 G4  |
+c8  |
+d2 d2 c8  |
+c4  |
+d4  |
+
+% --- LINE 3: CLIMAX & RESOLUTION ---
+A2 d4 f2  |
+g8  |
+d6 A2  |
+G4 g8  |
+g8  |
+f4  |
+d4 A2 B4  |
+f2 g8  |
+A4  |
+d4 f4  |
+G2 B2 f4  |
+d4 f2 G2  |
+G4 g2 G2  |
+|]

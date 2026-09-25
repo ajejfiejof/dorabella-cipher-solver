@@ -1,0 +1,51 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "dorabella-melodic-breaker"
+version = "1.0.0"
+description = "Definitive cryptanalytic and musical solver for Edward Elgar's 1897 Dorabella Cipher"
+readme = "README.md"
+authors = [
+    { name = "ajejfiejof" }
+]
+license = { text = "AGPL-3.0-or-later" }
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Intended Audience :: Science/Research",
+    "Topic :: Scientific/Engineering :: Information Analysis",
+    "Topic :: Multimedia :: Sound/Audio :: Analysis",
+    "License :: OSI Approved :: GNU Affero General Public License v3 or later (AGPLv3+)",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Programming Language :: Python :: 3.14",
+]
+requires-python = ">=3.8"
+dependencies = [
+    "numpy>=1.20.0"
+]
+
+[project.scripts]
+dorabella-breaker = "generate_audio:main"
+dorabella-verify = "verify:main"
+
+[tool.setuptools]
+py-modules = [
+    "dorabella_score_breaker",
+    "music_engine",
+    "elgar_themes",
+    "matcher",
+    "academic_analyzer",
+    "dorabella_data",
+    "masc_analyzer",
+    "grid_clock_solver",
+    "generate_audio",
+    "verify",
+    "test_solver",
+]

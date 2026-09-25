@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If you use this cryptanalytic solver or musical reconstruction, please cite it as below."
+title: "The Dorabella Cipher: Melodic Reconstruction and Cryptanalytic Solution"
+abstract: "An end-to-end information-theoretic and musical solution to Edward Elgar's 1897 Dorabella Cipher, decoding the 87 symbols into a dual-track G Major musical score aligning with Chanson de Matin and Enigma Variation X."
+authors:
+  - name: "ajejfiejof"
+license: AGPL-3.0-or-later
+version: 1.0.0
+date-released: 2026-09-25
+repository-code: "https://github.com/ajejfiejof/dorabella-cipher-solver"
+keywords:
+  - cryptography
+  - cryptanalysis
+  - dorabella-cipher
+  - edward-elgar
+  - music-information-retrieval
+  - parsons-code
+  - information-theory
