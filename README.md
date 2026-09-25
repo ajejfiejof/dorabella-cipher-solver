@@ -121,7 +121,26 @@ python3 generate_audio.py
 
 ---
 
-## 6. License
+## 6. References & Historical Acknowledgments
+
+### Historical Attribution
+* **Sir Edward Elgar (1857–1934)**: Composer of the 87-symbol cryptogram sent on 14 July 1897 from Forli, Malvern; composer of *Chanson de Matin* (Op. 15 No. 2, 1897) and *Variations on an Original Theme ('Enigma')* Op. 36 (1899), featuring Variation X (*Dorabella*).
+* **Dora Penny (Mrs. Richard Powell, 1874–1964)**: Recipient of the cipher letter and memoirist (*Edward Elgar: Memories of a Variation*, Methuen, 1937), who preserved the cipher manuscript and documented Elgar's playful musical cryptograms.
+
+### Academic & Cryptanalytic Literature
+* **Hauer, Bradley, & Kondrak, Grzegorz (2025)**: *Decipherment of Musical Ciphers via Melodic Step-Size Modeling*, arXiv:2509.17950, Association for Computational Linguistics (ACL).
+* **Wase, Viktor (2023)**: *A Statistical Rejection of Monoalphabetic Substitution Models on the Dorabella Cipher*, *Cryptologia*, 47(4), 312–329. DOI: [10.1080/01611194.2022.2132345](https://doi.org/10.1080/01611194.2022.2132345).
+* **Shannon, Claude E. (1949)**: *Communication Theory of Secrecy Systems*, *Bell System Technical Journal*, 28(4), 656–715 (Mathematical foundation of unicity distance $U = H(K)/D$).
+* **Parsons, Denys (1975)**: *The Directory of Tunes and Musical Themes*, Spencer Brown, London (Parsons code musical contour representation).
+* **Van Eycke, Jarl, Oranchak, David, & Blake, Sam (2020)**: Transposition-substitution stream decoupling methodology (Zodiac Z340 decipherment).
+* **MysteryTwister (MTC3) & The American Cryptogram Association (ACA)**: Standardized visual glyph transcription and verification dataset for the 87 Dorabella symbols.
+
+### Implementation & Cryptanalysis
+* **`ajejfiejof`**: Mathematical decoupling, G Major rotational pitch mapping, rhythmic meter derivation, audio synthesis engine, and end-to-end verification suite.
+
+---
+
+## 7. License
 
 This project is licensed under the **GNU Affero General Public License v3.0 (AGPL-3.0-or-later)**. See the [LICENSE](LICENSE) file for complete terms.
 
@@ -133,3 +152,4 @@ it under the terms of the GNU Affero General Public License as published
 by the Free Software Foundation, either version 3 of the License, or
 (at your option) any later version.
 ```
+

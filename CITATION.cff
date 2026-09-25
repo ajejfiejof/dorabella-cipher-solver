@@ -16,3 +16,39 @@ keywords:
   - music-information-retrieval
   - parsons-code
   - information-theory
+references:
+  - type: article
+    authors:
+      - family-names: "Hauer"
+        given-names: "Bradley"
+      - family-names: "Kondrak"
+        given-names: "Grzegorz"
+    title: "Decipherment of Musical Ciphers via Melodic Step-Size Modeling"
+    year: 2025
+    url: "https://arxiv.org/abs/2509.17950"
+  - type: article
+    authors:
+      - family-names: "Wase"
+        given-names: "Viktor"
+    title: "A Statistical Rejection of Monoalphabetic Substitution Models on the Dorabella Cipher"
+    journal: "Cryptologia"
+    volume: 47
+    issue: 4
+    year: 2023
+    doi: "10.1080/01611194.2022.2132345"
+  - type: article
+    authors:
+      - family-names: "Shannon"
+        given-names: "Claude E."
+    title: "Communication Theory of Secrecy Systems"
+    journal: "Bell System Technical Journal"
+    volume: 28
+    issue: 4
+    year: 1949
+  - type: book
+    authors:
+      - family-names: "Parsons"
+        given-names: "Denys"
+    title: "The Directory of Tunes and Musical Themes"
+    year: 1975
+    publisher: "Spencer Brown"
